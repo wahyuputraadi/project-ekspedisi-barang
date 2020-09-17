@@ -1,0 +1,517 @@
+@media (min-width: 992px) {
+  /* body {
+        margin-bottom: 300px;
+    } */
+
+  /* header */
+ #header .navbar {
+    background-color: #628bfc;
+ }
+
+  #header .nav-link,
+  #header-layanan-kami .nav-link {
+    margin-right: 20px;
+    font-weight: bold;
+    color: white;
+    font-size : 18px; 
+  }
+
+  #header .nav-link:hover {
+    font-weight: bold;
+    
+  }
+
+  #header .nav-link:hover::after,
+  #header-layanan-kami .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px white solid;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -7px;
+  }
+
+  /* banner */
+  #banner {
+    padding-top: 85px;
+    background-color: #628bfc;
+    color: white;
+  }
+
+  #banner h1,
+  #banner-layanan-kami h1 {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  #banner p,
+  #banner-layanan-kami p {
+    font-family: Montserrat;
+    font-weight: light;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #banner .img-banner,
+  #banner-layanan-kami .img-banner {
+    width: 400px;
+    height: auto;
+  }
+
+  #banner .visual-1 {
+    margin-top: 85px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* ongkos kirim */
+  #ongkir .bg-ongkir {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -110px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+  }
+
+  #ongkir h1 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+  }
+
+  #ongkir h6 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #8e8f92;
+  }
+
+  #ongkir .lacak {
+    margin-left: 50px;
+  }
+
+  #ongkir .btn-outline-warning {
+    width: 215px;
+    height: auto;
+  }
+
+  #ongkir .btn-outline-warning:hover {
+    background-color: gray;
+    color: white;
+    border: none;
+  }
+
+  #ongkir .img-lacak {
+    width: 300px;
+    height: auto;
+    margin-left: 50px;
+  }
+
+  #ongkir .btn-warning,
+  #kerjasama .btn-warning,
+  #timbangan .btn-warning,
+  #pengiriman .btn-warning,
+  #pick-up .btn-warning,
+  #ratings .btn-warning,
+  #pilihan-layanan .btn-warning{
+    width: 200px;
+    height: auto;
+    background: #f8a70f;
+    color: white;
+  }
+
+  #ongkir .btn-warning:hover,
+  #kerjasama .btn-warning:hover,
+  #timbangan .btn-warning:hover,
+  #pengiriman .btn-warning:hover,
+  #pick-up .btn-warning:hover,
+  #ratings .btn-warning:hover,
+  #pilihan-layanan .btn-warning:hover {
+    width: 200px;
+    height: auto;
+    background: #c39133;
+    color: white;
+  }
+
+  /* kerjasama */
+  #kerjasama {
+    margin-top: 85px;
+    background-color: #f2f1f1;
+    width: 100%;
+    height: auto;
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  #kerjasama .img-work,
+  #timbangan .img-timbangan {
+    width: 478px;
+    height: auto;
+  }
+
+  #kerjasama h1,
+  #timbangan h1,
+  #rating .content-rating h1 {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  #kerjasama p,
+  #timbangan p {
+    font-family: "Montserrat";
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #kerjasama .konten {
+    margin-top: 100px;
+  }
+
+  /* timbangan */
+  #timbangan {
+    margin-top: 85px;
+    width: 100%;
+    height: auto;
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+
+  /* rating */
+  #rating .judul-rating {
+    margin-bottom: 80px;
+  }
+
+  #rating .judul-rating h1 {
+    font-size: 30px;
+  }
+
+  #rating .btn-warning {
+    width: 232.38px;
+    height: auto;
+    background-color: #f8a70f;
+    color: white;
+  }
+
+  /* kerjasama */
+  #kerjasama,
+  #pengiriman {
+    background: #f2f1f1;
+    width: 100%;
+    height: auto;
+    margin-top: 85px;
+    /* padding-top: 100px; 
+        padding-bottom: 100px;  */
+    padding: 100px;
+  }
+
+  #kerjasama .img-work,
+  #timbangan .img-timbangan,
+  #pengiriman .img-pengiriman,
+  #pick-up .img-pick-up {
+    width: 478px;
+    height: auto;
+  }
+
+  #kerjasama h1,
+  #timbangan h1,
+  #pengiriman h1,
+  #pick-up h1 {
+    padding-top: 85px;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  #kerjasama p,
+  #timbangan p,
+  #pengiriman p,
+  #pick-up p {
+    font-family: "Raleway";
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* timbangan */
+  #timbangan,
+  #pick-up {
+    margin-top: 85px;
+    /* padding-top: 100px; 
+        padding-bottom: 100px;  */
+    padding: 100px;
+  }
+
+  /* ekspedisi */
+  #ekpedisi {
+    margin-top: 85px;
+    background-image: url(../Assets/img/bg-ekpedisi.png);
+    width: 100%;
+    height: 700px;
+  }
+
+  #ekpedisi h1 {
+    color: white;
+    font-size: 40px;
+    font-family: "raleway";
+    font-weight: bold;
+  }
+
+  #ekpedisi .btn-outline-light,
+  #judul-yes .btn-outline-light {
+    width: 200px;
+    height: auto;
+    color: white;
+    margin-top: 25px;
+  }
+
+  #ekpedisi .btn-outline-light:hover #judul-yes .btn-outline-light:hover {
+    background-color: #9faed88f;
+  }
+
+  #ekpedisi .text-ekspedisi {
+    padding: 100px;
+    margin-top: 80px;
+  }
+
+  /* rating */
+  #rating {
+    margin-top: 85px;
+  }
+
+  #rating p {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 25px;
+  }
+
+  #rating .bg-rating {
+    width: 100%;
+    height: auto;
+    background: white;
+    box-shadow: 0px 10px 30px rgba(88, 81, 81, 0.596);
+    border-radius: 10px;
+    padding: 50px;
+  }
+
+  #rating .bg-rating h1 {
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  #footer {
+    background: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 85px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #footer h1,
+  #footer-2 h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  #footer p,
+  #footer-2 p {
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /* halaman ke 2 ---------------------------------- */
+  #header-layanan-kami .bg-nav {
+    background-color: #f8a70f;
+    width: 100%;
+    height: auto;
+  }
+
+  /* pilihan layanan */
+  #pilihan-layanan {
+    margin-top: 85px;
+  }
+
+  #pilihan-layanan .bg-layanan {
+    background: #ffffff;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 50px;
+  }
+
+  #pilihan-layanan img {
+    width: 70px;
+    height: auto;
+  }
+
+  #pilihan-layanan h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+  }
+
+  #pilihan-layanan p {
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  /* banner */
+  #banner-layanan-kami {
+    background-color: #f8a70f;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* img icon */
+  #img-icon {
+    margin-top: 85px;
+  }
+
+  /* footer 2*/
+  #footer-2 {
+    margin-top: -330px;
+    z-index: 1;
+    position: relative;
+    background: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* halaman 3 --------------------------------- */
+  /* judul yes & reg */
+  #judul-yes,
+  #judul-reg {
+    margin-top: 50px;
+  }
+
+  #judul-yes .btn-warning,
+  #judul-reg .btn-warning,
+  #judul-ulasan-rating .btn-warning {
+    width: 200px;
+    height: auto;
+    background: #f8a70f;
+    color: white;
+  }
+
+  #judul-yes .btn-warning:hover,
+  #judul-reg .btn-warning:hover,
+  #judul-ulasan-rating .btn-warning:hover {
+    width: 200px;
+    height: auto;
+    background: #c39133;
+    color: white;
+  }
+
+  #judul-yes .btn-outline-warning,
+  #judul-reg .btn-outline-warning,
+  #judul-ulasan-rating .btn-outline-warning {
+    width: 200px;
+    height: auto;
+  }
+
+  #judul-yes .btn-outline-warning:hover,
+  #judul-reg .btn-outline-warning:hover,
+  #judul-ulasan-rating .btn-outline-warning:hover {
+    background-color: gray;
+    color: white;
+    border: none;
+  }
+
+  .cek-biaya-yes {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+
+  .cek-biaya-yes h5 {
+    margin: 10px;
+    font-size: 18px;
+  }
+
+  .cek-biaya-yes p {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .cek-biaya-yes .btn {
+    height: auto;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  /* halaman 4 ------------------------------------- */
+  /* ulasan & rating */
+  /* Ulasan rating */
+  #judul-ulasan-rating {
+    margin-top: 20px;
+  }
+
+  .halaman-ulasan-rating {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+  }
+
+  /* halaman 5 ------------------------------------- */
+  /* biaya ongkir */
+#informasi {
+   margin-top: 50px;
+}
+
+
+.informasi-konten {
+    background-color: white;
+    height: 600px;
+    /* height: auto; */
+    width: 100%;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.3);
+    /* overflow: scroll; */
+}
+
+.informasi-konten img {
+    width: auto;
+    height: 80px;
+    margin-top: 200px;
+}
+
+/* contact us */
+#contact-us {
+  margin-top: 85px;
+}
+
+}
